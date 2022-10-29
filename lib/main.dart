@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'cifar10/screen.dart' as cifar10;
+
 void main() {
   runApp(const MyApp());
 }
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
           ),
           body: TabBarView(
             children: [
-              Container(),
+              cifar10.Screen(),
               Container(),
             ],
           ),
